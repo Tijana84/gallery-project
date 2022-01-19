@@ -1,12 +1,11 @@
-
-function Users(name,surname){
+function Users(name, surname) {
   this.name = name;
   this.surname = surname;
-  this.info = function(){
-      document.write(name+ ' ' +surname);
-  }
+  this.info = function () {
+    document.write(name + " " + surname);
+  };
 }
-var tijana = new Users('Tijana', 'Savic');
+var tijana = new Users("Tijana", "Savic");
 tijana.info();
 
 var current = document.getElementById("current");
