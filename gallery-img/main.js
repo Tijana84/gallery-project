@@ -8,6 +8,7 @@ function Users(name, surname) {
 var tijana = new Users("Tijana", "Savic");
 tijana.info();
 
+
 var current = document.getElementById("current");
 var pictures = document.getElementsByClassName("thumb");
 for (var i = 0; i < pictures.length; i++) {
